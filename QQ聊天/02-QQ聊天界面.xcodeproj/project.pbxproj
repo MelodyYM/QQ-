@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DDC0111BF50248009DDEB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDC0101BF50248009DDEB2 /* main.m */; };
+		18DDC0141BF50248009DDEB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDC0131BF50248009DDEB2 /* AppDelegate.m */; };
+		18DDC0171BF50248009DDEB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDC0161BF50248009DDEB2 /* ViewController.m */; };
+		18DDC01A1BF50248009DDEB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DDC0181BF50248009DDEB2 /* Main.storyboard */; };
+		18DDC01C1BF50248009DDEB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DDC01B1BF50248009DDEB2 /* Assets.xcassets */; };
+		18DDC01F1BF50248009DDEB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DDC01D1BF50248009DDEB2 /* LaunchScreen.storyboard */; };
+		18DDC0271BF50391009DDEB2 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18DDC0261BF50391009DDEB2 /* messages.plist */; settings = {ASSET_TAGS = (); }; };
+		18DDC02A1BF503F5009DDEB2 /* QQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDC0291BF503F5009DDEB2 /* QQModel.m */; settings = {ASSET_TAGS = (); }; };
+		18DDC02E1BF506B3009DDEB2 /* QQFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDC02D1BF506B3009DDEB2 /* QQFrameModel.m */; settings = {ASSET_TAGS = (); }; };
+		18DDC0341BF50DA1009DDEB2 /* QQCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDC0331BF50DA1009DDEB2 /* QQCell.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18DDC00C1BF50248009DDEB2 /* 02-QQ聊天界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-QQ聊天界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DDC0101BF50248009DDEB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18DDC0121BF50248009DDEB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18DDC0131BF50248009DDEB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18DDC0151BF50248009DDEB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18DDC0161BF50248009DDEB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18DDC0191BF50248009DDEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DDC01B1BF50248009DDEB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18DDC01E1BF50248009DDEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18DDC0201BF50248009DDEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DDC0261BF50391009DDEB2 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		18DDC0281BF503F5009DDEB2 /* QQModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQModel.h; sourceTree = "<group>"; };
+		18DDC0291BF503F5009DDEB2 /* QQModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQModel.m; sourceTree = "<group>"; };
+		18DDC02C1BF506B3009DDEB2 /* QQFrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQFrameModel.h; sourceTree = "<group>"; };
+		18DDC02D1BF506B3009DDEB2 /* QQFrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQFrameModel.m; sourceTree = "<group>"; };
+		18DDC0321BF50DA1009DDEB2 /* QQCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQCell.h; sourceTree = "<group>"; };
+		18DDC0331BF50DA1009DDEB2 /* QQCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DDC0091BF50248009DDEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18DDC0031BF50248009DDEB2 = {
+			isa = PBXGroup;
+			children = (
+				18DDC00E1BF50248009DDEB2 /* 02-QQ聊天界面 */,
+				18DDC00D1BF50248009DDEB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18DDC00D1BF50248009DDEB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DDC00C1BF50248009DDEB2 /* 02-QQ聊天界面.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DDC00E1BF50248009DDEB2 /* 02-QQ聊天界面 */ = {
+			isa = PBXGroup;
+			children = (
+				18DDC0121BF50248009DDEB2 /* AppDelegate.h */,
+				18DDC0131BF50248009DDEB2 /* AppDelegate.m */,
+				18DDC0301BF50D86009DDEB2 /* Controller */,
+				18DDC02F1BF50D81009DDEB2 /* View */,
+				18DDC02B1BF506A5009DDEB2 /* Model */,
+				18DDC0181BF50248009DDEB2 /* Main.storyboard */,
+				18DDC01B1BF50248009DDEB2 /* Assets.xcassets */,
+				18DDC01D1BF50248009DDEB2 /* LaunchScreen.storyboard */,
+				18DDC0201BF50248009DDEB2 /* Info.plist */,
+				18DDC00F1BF50248009DDEB2 /* Supporting Files */,
+			);
+			path = "02-QQ聊天界面";
+			sourceTree = "<group>";
+		};
+		18DDC00F1BF50248009DDEB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DDC0261BF50391009DDEB2 /* messages.plist */,
+				18DDC0101BF50248009DDEB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18DDC02B1BF506A5009DDEB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18DDC0281BF503F5009DDEB2 /* QQModel.h */,
+				18DDC0291BF503F5009DDEB2 /* QQModel.m */,
+				18DDC02C1BF506B3009DDEB2 /* QQFrameModel.h */,
+				18DDC02D1BF506B3009DDEB2 /* QQFrameModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18DDC02F1BF50D81009DDEB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18DDC0321BF50DA1009DDEB2 /* QQCell.h */,
+				18DDC0331BF50DA1009DDEB2 /* QQCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		18DDC0301BF50D86009DDEB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18DDC0151BF50248009DDEB2 /* ViewController.h */,
+				18DDC0161BF50248009DDEB2 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DDC00B1BF50248009DDEB2 /* 02-QQ聊天界面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DDC0231BF50248009DDEB2 /* Build configuration list for PBXNativeTarget "02-QQ聊天界面" */;
+			buildPhases = (
+				18DDC0081BF50248009DDEB2 /* Sources */,
+				18DDC0091BF50248009DDEB2 /* Frameworks */,
+				18DDC00A1BF50248009DDEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-QQ聊天界面";
+			productName = "02-QQ聊天界面";
+			productReference = 18DDC00C1BF50248009DDEB2 /* 02-QQ聊天界面.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DDC0041BF50248009DDEB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QQ;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					18DDC00B1BF50248009DDEB2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 18DDC0071BF50248009DDEB2 /* Build configuration list for PBXProject "02-QQ聊天界面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DDC0031BF50248009DDEB2;
+			productRefGroup = 18DDC00D1BF50248009DDEB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DDC00B1BF50248009DDEB2 /* 02-QQ聊天界面 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DDC00A1BF50248009DDEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DDC0271BF50391009DDEB2 /* messages.plist in Resources */,
+				18DDC01F1BF50248009DDEB2 /* LaunchScreen.storyboard in Resources */,
+				18DDC01C1BF50248009DDEB2 /* Assets.xcassets in Resources */,
+				18DDC01A1BF50248009DDEB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DDC0081BF50248009DDEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DDC0171BF50248009DDEB2 /* ViewController.m in Sources */,
+				18DDC0141BF50248009DDEB2 /* AppDelegate.m in Sources */,
+				18DDC02E1BF506B3009DDEB2 /* QQFrameModel.m in Sources */,
+				18DDC0111BF50248009DDEB2 /* main.m in Sources */,
+				18DDC02A1BF503F5009DDEB2 /* QQModel.m in Sources */,
+				18DDC0341BF50DA1009DDEB2 /* QQCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18DDC0181BF50248009DDEB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DDC0191BF50248009DDEB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DDC01D1BF50248009DDEB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DDC01E1BF50248009DDEB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DDC0211BF50248009DDEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18DDC0221BF50248009DDEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DDC0241BF50248009DDEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = "02-QQ聊天界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.itcast.-2-QQ----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18DDC0251BF50248009DDEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = "02-QQ聊天界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.itcast.-2-QQ----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DDC0071BF50248009DDEB2 /* Build configuration list for PBXProject "02-QQ聊天界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DDC0211BF50248009DDEB2 /* Debug */,
+				18DDC0221BF50248009DDEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DDC0231BF50248009DDEB2 /* Build configuration list for PBXNativeTarget "02-QQ聊天界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DDC0241BF50248009DDEB2 /* Debug */,
+				18DDC0251BF50248009DDEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18DDC0041BF50248009DDEB2 /* Project object */;
+}
